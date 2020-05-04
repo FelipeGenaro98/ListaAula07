@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<title>Exercício 6 Lista 7</title>
+    <head>
+        <meta charset="utf-8">
+        <script language="javascript">
+            var opc, l1, l2, pi=3.14;
+            opc = prompt("MENU - DIGITE A LETRA DA OPÇÃO DESEJADA \na. Quadrado \nb. Retângulo \nc. Triângulo Retângulo \nd. Círculo");
+            if(opc == "a" || opc == "A"){
+                l1 = prompt("digite o tamanho dos lados: ");
+                alert("área do quadrado informado: "+ (l1*l1));
+            }else if(opc == "b" || opc == "B"){
+                l1 = prompt("digite a altura: ");
+                l2 = prompt("digite o comprimento: ");
+                alert("área do retângulo informado: "+ (l1*l2)); 
+            }else if(opc == "c" || opc == "C"){
+                l1 = prompt("digite a altura: ");
+                l2 = prompt("digite o comprimento: ");
+                alert("área do triângulo retângulo informado: "+ ((l1*l1)/2));
+            }else if(opc == "d" || opc == "D"){
+                l1 = prompt("digite o raio do círculo: ");
+                alert("área do círculo informado: "+ (pi*(l1*l1)));
+            }else{
+                alert("atualize a página e digite uma opção válida")
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

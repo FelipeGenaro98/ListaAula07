@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<title>Exercício 5 Lista 7</title>
+    <head>
+        <meta charset="utf-8">
+        <script language="javascript">
+            var p, a, imc;
+            p = prompt("digite o peso:");
+            a = prompt("digite a altura: ");
+            imc = p / (a*a);
+            if(imc < 18.5){
+                r = "peso abaixo do normal";
+            }else if(imc >= 18.5 && imc < 25){
+                r = "peso ideal";
+            }else if(imc >= 25 && imc < 30){
+                r = "peso acima do normal";
+            }else if(imc >=30 && imc < 35){
+                r = "obesidade grau I";
+            }else if(imc >=35 && imc < 40){
+                r = "obesidade grau II";
+            }else if(imc >=40){
+                r = "obesidade grau III";
+            }
+            alert("resultado: " + r);
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
